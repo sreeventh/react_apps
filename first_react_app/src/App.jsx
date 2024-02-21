@@ -7,6 +7,7 @@ import notes_data from "./notes_data"
 function display_notes(a){
   return(
     <Note
+      key={a.id}
       title={a.title}
       content={a.content}
     />
